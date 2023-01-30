@@ -1,3 +1,5 @@
+package Lecture.EmployeeMgt;
+
 public class CalcSalary {
     Employee employee;
 

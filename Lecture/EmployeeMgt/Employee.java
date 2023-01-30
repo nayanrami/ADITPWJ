@@ -1,3 +1,5 @@
+package Lecture.EmployeeMgt;
+
 class Employee {
     private long id;
     private String name;
