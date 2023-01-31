@@ -1,11 +1,11 @@
 public class StringDemo1 {
 
     public static void main(String[] args) {
-        String message = "Hello How Are You";
+        String message = "1,nayan,adit,nayan@gmail.com,99753894753,89347238947,";
 
         System.out.println("Length of String Message : " + message.length());
         System.out.println("\nString Tokenization :");
-        String data[] = message.split(" ");
+        String data[] = message.split(",");
         for (String token : data) {
             System.out.println("Token : " + token);
         }

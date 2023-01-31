@@ -1,4 +1,5 @@
-class Main {
+class StringToggleCase {
+
     public static void main(String[] args) {
         String message = "Welcome To Adit";
 
@@ -16,6 +17,8 @@ class Main {
         }
 
         String newmsg = String.valueOf(message3);
+
+        System.out.println("Toggle String " + newmsg);
 
         StringBuffer sb = new StringBuffer(newmsg);
         sb.reverse();
