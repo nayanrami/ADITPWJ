@@ -13,27 +13,17 @@ public class Time {
 
     }
 
-    Time sumTime(Time t1) {
+    Time sumTime(Time t2) {
         Time t3 = new Time();
 
-        t3.hr = t1.hr + hr;
-        t3.min = t1.min + min;
-        t3.sec = t1.sec + sec;
+        t3.hr = t2.hr + hr;
+        t3.min = t2.min + min;
+        t3.sec = t2.sec + sec;
 
         return t3;
     }
 
     public String toString() {
         return "[Hr" + hr + ", Min" + min + ", Sec" + sec + "]";
-    }
-}
-
-class Main {
-    public static void main(String[] args) {
-        Time t1 = new Time(1, 1, 1);
-        Time t2 = new Time(1, 1, 1);
-
-        Time t3 = t1.sumTime(t2);
-        System.out.println("Time 3" + t3);
     }
 }

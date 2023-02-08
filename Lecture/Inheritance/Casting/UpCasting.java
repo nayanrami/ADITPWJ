@@ -21,9 +21,10 @@ class UpCasting {
         /*
          * Down Casting:
          */
-        Parrent parrentrefchild1 = (Child) new Child();
-        Child child2 = (Child) parrentrefchild1;
-
+        Parrent parrentrefchild1 = new Child();
+        Child child4 = (Child) parrentrefchild1;
+        child4.m1();
+        child4.m2();
     }
 }
 
